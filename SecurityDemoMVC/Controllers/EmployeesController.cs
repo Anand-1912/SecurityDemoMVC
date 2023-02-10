@@ -10,6 +10,7 @@ using SecurityDemoMVC.Data;
 
 namespace SecurityDemoMVC.Controllers
 {
+    [Authorize]
     public class EmployeesController : Controller
     {
         private MVCDBEntities db = new MVCDBEntities();
